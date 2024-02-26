@@ -12,6 +12,6 @@ Serviço de Notificação: Envia notificações sobre o status do pedido.
 
 Cada um desses serviços seria um microsserviço independente, com sua própria base de código, banco de dados e responsabilidade específica. Eles se comunicariam entre si conforme necessário, como mostrado no diagrama abaixo:
 
-
+![Microservicos](microservicos.png)
 
 Cada serviço pode ser desenvolvido e escalado independentemente, permitindo que a aplicação como um todo seja mais flexível e fácil de manter.
