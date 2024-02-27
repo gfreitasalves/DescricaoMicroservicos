@@ -5,10 +5,10 @@ Essa arquitetura é contrária à tradicional monolítica, em que toda a aplica�
 
 Um exemplo de uma aplicação de microsserviços pode ser uma loja online. como mostrado abaixo:
 
-Serviço de Catálogo: Responsável por gerenciar os produtos disponíveis para venda.
-Serviço de Carrinho: Gerencia os itens adicionados ao carrinho de compras.
-Serviço de Pagamento: Responsável por processar os pagamentos.
-Serviço de Notificação: Envia notificações sobre o status do pedido.
+- Serviço de Catálogo: Responsável por gerenciar os produtos disponíveis para venda.
+- Serviço de Carrinho: Gerencia os itens adicionados ao carrinho de compras.
+- Serviço de Pagamento: Responsável por processar os pagamentos.
+- Serviço de Notificação: Envia notificações sobre o status do pedido.
 
 Cada um desses serviços seria um microsserviço independente, com sua própria base de código, banco de dados e responsabilidade específica. Eles se comunicariam entre si conforme necessário, como mostrado no diagrama abaixo:
 
